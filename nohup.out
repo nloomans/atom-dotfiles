@@ -1,0 +1,49 @@
+auto-updater is not implemented on this platform
+Error: auto-updater is not implemented on this platform
+    at Object.<anonymous> (/usr/share/atom/resources/atom.asar/browser/api/lib/auto-updater.js:11:13)
+    at Object.<anonymous> (/usr/share/atom/resources/atom.asar/browser/api/lib/auto-updater.js:14:4)
+    at Module._compile (module.js:434:26)
+    at Object.defineProperty.value [as .js] (/usr/share/atom/resources/app.asar/src/compile-cache.js:208:21)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at AutoUpdateManager.module.exports.AutoUpdateManager.setupAutoUpdater (/usr/share/atom/resources/app.asar/src/browser/auto-update-manager.js:62:23)
+    at /usr/share/atom/resources/app.asar/src/browser/auto-update-manager.js:53:24
+    at doNTCallback0 (node.js:419:9)
+    at process._tickCallback (node.js:348:13)
+    at NavigationController.loadUrl (/usr/share/atom/resources/atom.asar/browser/api/lib/navigation-controller.js:59:24)
+    at EventEmitter.webContents.(anonymous function) [as loadUrl] (/usr/share/atom/resources/atom.asar/browser/api/lib/web-contents.js:81:27)
+    at BrowserWindow.loadUrl (/usr/share/atom/resources/atom.asar/browser/api/lib/browser-window.js:121:37)
+    at AtomWindow.module.exports.AtomWindow.setLoadSettings (/usr/share/atom/resources/app.asar/src/browser/atom-window.js:124:33)
+    at new AtomWindow (/usr/share/atom/resources/app.asar/src/browser/atom-window.js:110:12)
+    at AtomApplication.module.exports.AtomApplication.openPaths (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:710:24)
+    at AtomApplication.module.exports.AtomApplication.openWithOptions (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:131:21)
+    at new AtomApplication (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:111:14)
+    at createAtomApplication (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:60:16)
+    at Function.module.exports.AtomApplication.open (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:63:9)
+    at EventEmitter.<anonymous> (/usr/share/atom/resources/app.asar/src/browser/main.js:55:23)
+    at emitOne (events.js:82:20)
+    at EventEmitter.emit (events.js:169:7)
+App load time: 776ms
+Created new window in existing browser session.
+Created new window in existing browser session.
+Created new window in existing browser session.
+Created new window in existing browser session.
+[4425:0227/175736:ERROR:CONSOLE(1381)] "TypeError: Cannot set property '_nodeValue' of undefined TypeError: Cannot set property '_nodeValue' of undefined
+    at Object.WebInspector.DOMModel._characterDataModified (chrome-devtools://devtools/bundled/inspector.js:4915:52)
+    at Object.WebInspector.DOMDispatcher.characterDataModified (chrome-devtools://devtools/bundled/inspector.js:5008:17)
+    at Object.InspectorBackendClass.DispatcherPrototype.dispatch (chrome-devtools://devtools/bundled/inspector.js:3913:63)
+    at Object.InspectorBackendClass.Connection.dispatch (chrome-devtools://devtools/bundled/inspector.js:3824:31)
+    at Object.InspectorBackendClass.MainConnection._dispatchMessage (chrome-devtools://devtools/bundled/inspector.js:3845:7)
+    at Object.WebInspector.Object.dispatchEventToListeners (chrome-devtools://devtools/bundled/inspector.js:748:185)
+    at innerDispatch (chrome-devtools://devtools/bundled/inspector.js:1381:58)
+    at Object.InspectorFrontendAPIImpl._dispatch (chrome-devtools://devtools/bundled/inspector.js:1380:1)
+    at Object.DevToolsAPIImpl._dispatchOnInspectorFrontendAPI (<anonymous>:61:21)
+    at Object.DevToolsAPIImpl.dispatchMessage (<anonymous>:128:14)", source: chrome-devtools://devtools/bundled/inspector.js (1381)
+Cannot read property 'length' of undefined
+TypeError: Cannot read property 'length' of undefined
+    at AtomApplication.<anonymous> (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:648:40)
+    at AtomApplication.module.exports.AtomApplication.openPaths (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:653:10)
+    at /usr/share/atom/resources/app.asar/src/browser/atom-application.js:970:24
+    at Function.wrappedCallback (/usr/share/atom/resources/atom.asar/browser/api/lib/dialog.js:82:16)

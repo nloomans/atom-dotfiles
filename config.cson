@@ -1,0 +1,17 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    themes: [
+      "one-dark-ui"
+      "an-old-hope-syntax"
+    ]
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "936366d7-22ee-328f-dd0e-ddec2038651e"
+  "merge-conflicts": {}
+  minimap: {}
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
